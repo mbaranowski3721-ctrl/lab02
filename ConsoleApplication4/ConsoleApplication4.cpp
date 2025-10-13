@@ -92,10 +92,32 @@ int main()
             }
         }
     }
-    else {
-        cout << "Podane liczby nie moga byc takie same";
+    else if(x = d) {
+        for (int i = x; i <= d; i++) {
+            if (i % 3 == 0) {
+                cout << i << endl;
+            }
+        }
     }
     cout << endl;
+    
+    //Zadanie 12
+    cout << "Zadanie 12" << endl;
+    int t = 0;
+    int suma = 0;
+    int dzielenie = 0;
+    cout << "Podaj liczbe: ";
+    cin >> t;
+    for (int i = 0; i < t; i++) {
+        suma = suma + i;
+        dzielenie = i;
+    }
+    cout << "Srednia arytmetyczna wynosi: " << suma / dzielenie;
+    cout << endl;
+
+
+
+
 
 
 
