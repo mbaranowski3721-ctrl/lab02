@@ -124,6 +124,63 @@ int main()
     }
     */
     //Zadanie 14
+    /*
+    int a, b, c;
+    cout << "Zadanie 14" << endl;
+    cout << "Podaj 3 liczby: ";
+    cin >> a >> b >> c;
+    if (a < b) {
+        if (a < c) {
+            cout << "Pierwsza liczba jest najmniejsza";
+        }
+        else {
+            cout << "Trzecia liczba jest najmniejsza";
+        }
+    }
+    else {
+        if (b < c) {
+            cout << "Druga liczba jest najmniejsza";
+        }
+        else {
+            cout << "Trzecia liczba jest najmniejsza";
+        }
+    }
+    */
+    /*
+    //Zadanie 15
+    int n, m;
+    cout << "Zadanie 15" << endl;
+    cout << "Podaj n: ";
+    cin >> n;
+    cout << "Podaj m: ";
+    cin >> m;
+    m = m + 1;
+    srand(time(0));
+
+    for (int i = 0; i < n; i++) {
+        int losowy = rand() % m;
+        cout << losowy << endl;
+    }
+    */
+    /*
+    //Zadanie 16
+    cout << "Zadanie 16" << endl;
+    int a, m;
+    cout << "Podaj szczesliwy numerek od 1 do 10: ";
+    cin >> a;
+    int b = 0;
+    srand(time(0));
+    for (int i = 0; i < 10; i++) {
+        int losowy = rand() % 11;
+        cout << losowy << endl;
+        if (a == losowy) {
+            b++;
+        }
+    }
+    cout << "Szczesliwy numerek pojawil sie " << b << " razy";
+    */
+
+
 
 
 
