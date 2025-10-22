@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    /*
     //Zadanie 1
     cout << "Zadanie 1" << endl;
     for (int i = 0; i <= 10; i++) {
@@ -114,14 +115,21 @@ int main()
     }
     cout << "Srednia arytmetyczna wynosi: " << suma / dzielenie;
     cout << endl;
-
-
-
-
+    */
+    /*
+    //Zadanie 13
+    cout << "Zadanie 13" << endl;
+    for (int i = 100; i >= 0; i--) {
+        cout << i << endl;
+    }
+    */
+    //Zadanie 14
 
 
 
     
+    
+
 
 }
 
